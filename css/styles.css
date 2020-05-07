@@ -1,0 +1,97 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /** 1rem = 10px **/
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Krub', sans-serif;
+}
+h1, h2, h3, p {
+    margin: 0;
+}
+
+/** Utilities **/
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+.button {
+    background-color: #0097A7;
+    color: white;
+    font-size: 2rem;
+    display: inline-block;
+    padding: 1rem 4rem;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/** Header **/
+.header,
+.hero-content {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+.header nav {
+    display: flex;
+    justify-content: space-between;
+}
+.header nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 2.5rem;
+    padding: 2rem 3rem;
+}
+
+/** Hero **/
+.hero {
+    background-image: url(../img/hero.jpg);
+    height: 40rem;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero::after {
+    content: '';
+    background-color: #00000085;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.hero-content {
+    color: #ffffff;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+.hero-content h1 {
+    font-size: 3.5rem;
+}
+.hero-content p {
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+}
+.hero-content p i {
+    font-size: 4.5rem;
+    color: #FFC107;
+}
+
+
+
+
+
+
+
+
+
+
+
