@@ -67,6 +67,7 @@ p {
     flex-direction: column;
     align-items: center;
     max-height: 0;
+    transition: 0.5s;
 }
 @media (min-width: 768px) {
     .mobile-menu,
@@ -79,6 +80,7 @@ p {
 }
 #nav:target {
     max-height: 40rem;
+    transition: 0.4s;
 }
 @media (min-width: 768px) {
     .main-nav {
