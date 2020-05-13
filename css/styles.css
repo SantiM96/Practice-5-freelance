@@ -221,6 +221,7 @@ form legend {
     flex: 1;
     height: 3rem;
     font-size: 1.4rem;
+    min-width: 1.7rem;
 }
 .camps-container textarea {
     flex: 1;
